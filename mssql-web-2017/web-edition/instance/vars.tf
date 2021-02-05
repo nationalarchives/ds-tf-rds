@@ -1,6 +1,8 @@
 variable "db_username" {}
 variable "db_password" {}
 
+variable "publicly_accessible" {}
+
 variable "identifier" {}
 variable "final_snapshot_identifier" {}
 
