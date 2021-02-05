@@ -2,6 +2,8 @@ resource "aws_db_instance" "rds_instance" {
     username = var.db_username
     password = var.db_password
 
+    publicly_accessible = var.publicly_accessible
+
     identifier               = var.identifier
     final_snapshot_identifier = var.final_snapshot_identifier
 
